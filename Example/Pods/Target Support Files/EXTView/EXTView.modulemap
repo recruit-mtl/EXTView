@@ -1,0 +1,6 @@
+framework module EXTView {
+  umbrella header "EXTView-umbrella.h"
+
+  export *
+  module * { export * }
+}

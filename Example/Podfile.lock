@@ -1,0 +1,21 @@
+PODS:
+  - EXTView (0.1.0)
+  - FBSnapshotTestCase (2.0.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.4)
+  - FBSnapshotTestCase/Core (2.0.4)
+  - FBSnapshotTestCase/SwiftSupport (2.0.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - EXTView (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  EXTView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EXTView: be9885dcdc300ed1b43dce609316d3d7012fb636
+  FBSnapshotTestCase: d94cf34841c9e77390e29009e8e2713479d48753
+
+COCOAPODS: 0.38.2
