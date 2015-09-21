@@ -253,7 +253,7 @@
 			attributes = {
 				CLASSPREFIX = EXT;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "MORITA Hideyuki";
+				ORGANIZATIONNAME = "Recruit Holdings Co.,Ltd.";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
