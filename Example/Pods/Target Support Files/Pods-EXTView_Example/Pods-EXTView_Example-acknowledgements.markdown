@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## EXTView
 
-Copyright (c) 2015 MORITA Hideyuki <emeitch@emeitch.com>
+Copyright (c) 2015 Recruit Holdings Co.,Ltd. <h_morita@r.recruit.co.jp>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -22,7 +22,8 @@ pod "EXTView"
 
 ## Author
 
-MORITA Hideyuki, emeitch@emeitch.com
+Recruit Holdings Co.,Ltd. Media Technology Lab.
+MORITA Hideyuki, h_morita@r.recruit.co.jp
 
 ## License
 
