@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C947C6B559EE06E21CCBA4C"
+               BlueprintIdentifier = "3605DF2E0FCC4EBD2C32E9E4"
                BuildableName = "EXTView.framework"
                BlueprintName = "EXTView"
                ReferencedContainer = "container:Pods.xcodeproj">
