@@ -58,6 +58,8 @@
 
 @end
 
+
+
 @interface EXTView ()
 @property (readonly) EXTLayer *ext_layer;
 @end
@@ -165,3 +167,228 @@
 }
 
 @end
+
+
+
+
+@interface EXTImageView ()
+@property (readonly) EXTLayer *ext_layer;
+@end
+
+@implementation EXTImageView
+
++ (Class)layerClass
+{
+    return [EXTLayer class];
+}
+
+- (EXTLayer *)ext_layer
+{
+    return (EXTLayer *)self.layer;
+}
+
+- (void)ext_setup
+{
+}
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super initWithCoder:aDecoder]) {
+        [self ext_setup];
+    }
+    return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    if (self = [super initWithFrame:frame]) {
+        [self ext_setup];
+    }
+    return self;
+}
+
+- (UIColor *)borderColor
+{
+    return [UIColor colorWithCGColor:self.layer.borderColor];
+}
+
+- (void)setBorderColor:(UIColor *)borderColor
+{
+    self.layer.borderColor = borderColor.CGColor;
+}
+
+- (CGFloat)borderWidth
+{
+    return self.layer.borderWidth;
+}
+
+- (void)setBorderWidth:(CGFloat)borderWidth
+{
+    self.layer.borderWidth = borderWidth;
+}
+
+- (CGFloat)cornerRadius
+{
+    return self.layer.cornerRadius;
+}
+
+- (void)setCornerRadius:(CGFloat)cornerRadius
+{
+    self.layer.cornerRadius = cornerRadius;
+}
+
+- (UIColor *)bgStartColor:(UIColor *)color
+{
+    return [UIColor colorWithCGColor:self.ext_layer.startColor];
+}
+
+- (void)setBgStartColor:(UIColor *)color
+{
+    self.ext_layer.startColor = color.CGColor;
+}
+
+- (CGPoint)bgStartPoint
+{
+    return self.ext_layer.startPoint;
+}
+
+- (void)setBgStartPoint:(CGPoint)gradientStartPoint
+{
+    self.ext_layer.startPoint = gradientStartPoint;
+}
+
+- (UIColor *)bgEndColor:(UIColor *)color
+{
+    return [UIColor colorWithCGColor:self.ext_layer.endColor];
+}
+
+- (void)setBgEndColor:(UIColor *)color
+{
+    self.ext_layer.endColor = color.CGColor;
+}
+
+- (CGPoint)bgEndPoint
+{
+    return self.ext_layer.endPoint;
+}
+
+- (void)setBgEndPoint:(CGPoint)gradientEndPoint
+{
+    self.ext_layer.endPoint = gradientEndPoint;
+}
+
+@end
+
+
+
+
+@interface EXTButton ()
+@property (readonly) EXTLayer *ext_layer;
+@end
+
+@implementation EXTButton
+
++ (Class)layerClass
+{
+    return [EXTLayer class];
+}
+
+- (EXTLayer *)ext_layer
+{
+    return (EXTLayer *)self.layer;
+}
+
+- (void)ext_setup
+{
+}
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super initWithCoder:aDecoder]) {
+        [self ext_setup];
+    }
+    return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    if (self = [super initWithFrame:frame]) {
+        [self ext_setup];
+    }
+    return self;
+}
+
+- (UIColor *)borderColor
+{
+    return [UIColor colorWithCGColor:self.layer.borderColor];
+}
+
+- (void)setBorderColor:(UIColor *)borderColor
+{
+    self.layer.borderColor = borderColor.CGColor;
+}
+
+- (CGFloat)borderWidth
+{
+    return self.layer.borderWidth;
+}
+
+- (void)setBorderWidth:(CGFloat)borderWidth
+{
+    self.layer.borderWidth = borderWidth;
+}
+
+- (CGFloat)cornerRadius
+{
+    return self.layer.cornerRadius;
+}
+
+- (void)setCornerRadius:(CGFloat)cornerRadius
+{
+    self.layer.cornerRadius = cornerRadius;
+}
+
+- (UIColor *)bgStartColor:(UIColor *)color
+{
+    return [UIColor colorWithCGColor:self.ext_layer.startColor];
+}
+
+- (void)setBgStartColor:(UIColor *)color
+{
+    self.ext_layer.startColor = color.CGColor;
+}
+
+- (CGPoint)bgStartPoint
+{
+    return self.ext_layer.startPoint;
+}
+
+- (void)setBgStartPoint:(CGPoint)gradientStartPoint
+{
+    self.ext_layer.startPoint = gradientStartPoint;
+}
+
+- (UIColor *)bgEndColor:(UIColor *)color
+{
+    return [UIColor colorWithCGColor:self.ext_layer.endColor];
+}
+
+- (void)setBgEndColor:(UIColor *)color
+{
+    self.ext_layer.endColor = color.CGColor;
+}
+
+- (CGPoint)bgEndPoint
+{
+    return self.ext_layer.endPoint;
+}
+
+- (void)setBgEndPoint:(CGPoint)gradientEndPoint
+{
+    self.ext_layer.endPoint = gradientEndPoint;
+}
+
+@end
+
+
+

@@ -1,0 +1,30 @@
+//
+//  EXTView.h
+//  Pods
+//
+//  Created by emeitch on 9/15/15.
+//
+//
+<% 
+require File.expand_path('extview', File.dirname(__FILE__)) 
+%>
+
+#import <UIKit/UIKit.h>
+
+<% EXTView::NAMES.each do |view_name| %>
+IB_DESIGNABLE
+@interface EXT<%= view_name %> : UI<%= view_name %>
+
+@property (nonatomic) IBInspectable UIColor *borderColor;
+@property (nonatomic) IBInspectable CGFloat borderWidth;
+@property (nonatomic) IBInspectable CGFloat cornerRadius;
+
+@property (nonatomic) IBInspectable UIColor *bgStartColor;
+@property (nonatomic) IBInspectable CGPoint bgStartPoint;
+@property (nonatomic) IBInspectable UIColor *bgEndColor;
+@property (nonatomic) IBInspectable CGPoint bgEndPoint;
+
+@end
+
+
+<% end %>
