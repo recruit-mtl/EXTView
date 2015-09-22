@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-  This library extends UIViews for Interface Builder editable. For example, border color & width or corner radius or gradated background are not supported in Inteterface Builder. But you can edit then by using this library.
+  This library extends UIViews for Interface Builder editable. For example, border color, border width, corner radius or graduated background are not supported in Interface Builder. But you can edit them by using this library.
                        DESC
 
   s.homepage         = "https://github.com/recruit-mtl/EXTView"
