@@ -48,7 +48,7 @@ EXTViewはUIView群を継承したクラスとして実装されています。�
 EXTViewライブラリでは以下のUIViewクラスが拡張されています。
 
 | 継承元クラス名 | 拡張クラス名 |
-|--|--|
+|---|---|
 | UIView | EXTView |
 | UILabel | EXTLabel |
 | UIButton | EXTButton |
