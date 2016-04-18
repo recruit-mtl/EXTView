@@ -77,7 +77,7 @@ NOTE: You must specify 'use_frameworks!'. Because if it was not specified, cocoa
 
 Recruit Holdings Co.,Ltd. Media Technology Lab.
 
-MORITA Hideyuki
+Hideyuki MORITA
 
 ## License
 
